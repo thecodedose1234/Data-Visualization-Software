@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#controls, #input-form {
+    margin-bottom: 20px;
+}
+
+#chart {
+    width: 80%;
+    height: 500px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 60px;
+    height: 28px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+#input-form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#input-form label, #input-form input, #input-form button {
+    margin-bottom: 10px;
+}
+
+#input-form button {
+    align-self: center;
+    padding: 5px 10px;
+    cursor: pointer;
+}
